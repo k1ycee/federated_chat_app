@@ -1,0 +1,62 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - Flutter (1.0.0)
+  - flutter_olm (3.2.15):
+    - Flutter
+  - flutter_openssl_crypto (0.0.1):
+    - Flutter
+    - OpenSSL-Universal
+  - flutter_secure_storage (6.0.0):
+    - Flutter
+  - OpenSSL-Universal (3.2.2000)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/darwin`)
+  - Flutter (from `Flutter`)
+  - flutter_olm (from `.symlinks/plugins/flutter_olm/ios`)
+  - flutter_openssl_crypto (from `.symlinks/plugins/flutter_openssl_crypto/ios`)
+  - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/darwin"
+  Flutter:
+    :path: Flutter
+  flutter_olm:
+    :path: ".symlinks/plugins/flutter_olm/ios"
+  flutter_openssl_crypto:
+    :path: ".symlinks/plugins/flutter_openssl_crypto/ios"
+  flutter_secure_storage:
+    :path: ".symlinks/plugins/flutter_secure_storage/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+
+SPEC CHECKSUMS:
+  connectivity_plus: ddd7f30999e1faaef5967c23d5b6d503d10434db
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_olm: 7740eb40ef5199228d3a04b82baf20836ecd53ba
+  flutter_openssl_crypto: 636ad25f56fbe0f45b9e13b8589540b341a486a1
+  flutter_secure_storage: d33dac7ae2ea08509be337e775f6b59f1ff45f12
+  OpenSSL-Universal: f8a9c4fdab7e21cb70bda471c269e86e9212439c
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
