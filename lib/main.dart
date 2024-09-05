@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:matrix_project/core/services/matrix_service.dart';
+import 'package:matrix_project/core/services/navigation_service.dart';
+import 'package:matrix_project/views/login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +23,9 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.orangeAccent,
         useMaterial3: false,
       ),
+      navigatorKey: navigator.key,
       debugShowCheckedModeBanner: false,
+      home: const LoginPage(),
     );
   }
 }

@@ -19,7 +19,7 @@ class MatrixService {
 
   static Future<void> init() async {
     try {
-      const homeServerUrl = 'http://192.168.0.154:8008';
+      const homeServerUrl = '';
       await client.checkHomeserver(Uri.parse(homeServerUrl));
       if (client.isLogged() == false) {
         await client.init();
@@ -29,11 +29,14 @@ class MatrixService {
     }
   }
 
-  static Future<void> login({
+  static Future<LoginResponse> login({
     required String username,
     required String password,
   }) async {
-    await client.login(
+    if (client.isLogged() == false) {
+      await init();
+    }
+    return await client.login(
       LoginType.mLoginPassword,
       password: password,
       identifier: AuthenticationUserIdentifier(user: username),
